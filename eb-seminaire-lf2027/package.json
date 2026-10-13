@@ -1,0 +1,14 @@
+{
+  "name": "eb-seminaire-lf2027",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Plateforme d'inscription au séminaire Loi de Finances 2027 – EB-Partners Group (paiement Chariow, devis & conventions imprimables)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "CHARIOW_MODE=mock ADMIN_PASSWORD=demo node server.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=18" },
+  "license": "UNLICENSED"
+}
